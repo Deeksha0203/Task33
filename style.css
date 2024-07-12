@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #007e7e;
+}
+
+.header h2{
+   margin-bottom: 20px;
+   font-size: 2em;
+   font-weight: bolder;
+   margin-top: 10px;
+   text-shadow: 2px 2px;
+}
+
+.header p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 15px;
+    width: 100%;
+    text-shadow: 1px 1px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.register{
+    padding: 10px;
+    width: 105%;
+    margin: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(9, 178, 245, 0.842);
+    border-radius: 5px;
+}
+
+
+.login{
+    margin: 10px;
+    color: gray;
+    text-shadow: 1px 1px;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line{
+    height: 2px;
+    background-color: #007e7e;
+}
+
+.or{
+    margin: 0 10px;
+    color: white;
+    font-size: 16px;
+}
